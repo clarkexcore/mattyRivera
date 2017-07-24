@@ -1,6 +1,35 @@
 @import 'setup';
+@import 'variable';
+@import 'header';
 
-.container {
-	max-width: 900px;
+body{
+	font-family: $baseFont;
+}
+
+h1, .section-title h2{
+	font-family: $headerFont;
+}
+
+h1, h2, h3{
+	margin: 0;
+}
+
+p{
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.wrapper{
+	max-width: 80%;
 	margin: 0 auto;
 }

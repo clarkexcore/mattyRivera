@@ -131,6 +131,73 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-.container {
-  max-width: 900px;
+nav {
+  padding: 15px 0; }
+
+ul.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.nav-menu__links {
+  text-transform: uppercase; }
+  .nav-menu__links a {
+    font-size: 25px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s; }
+    .nav-menu__links a:hover {
+      border-bottom: 3px solid #c65b82; }
+
+.artist {
+  height: 95vh;
+  background-image: url(../../images/artistimage.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .artist h1 {
+    font-size: 150px;
+    color: white; }
+  .artist h2 {
+    font-size: 60px;
+    color: white;
+    margin-top: 50px; }
+
+body {
+  font-family: "Amatic SC", serif; }
+
+h1, .section-title h2 {
+  font-family: "Pacifico", cursive; }
+
+h1, h2, h3 {
+  margin: 0; }
+
+p {
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.wrapper {
+  max-width: 80%;
   margin: 0 auto; }

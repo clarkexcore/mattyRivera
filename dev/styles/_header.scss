@@ -1,0 +1,42 @@
+//Header Styling
+
+nav{
+	padding: 15px 0;
+}
+
+ul.nav-menu{
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-menu__links{
+	text-transform: uppercase;
+	a{
+		font-size: 25px;
+		transition: all 0.2s;
+		&:hover{
+			border-bottom: 3px solid #c65b82;
+		}
+	}
+}
+
+.artist{
+	height: 95vh;
+	background-image: url(../../images/artistimage.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	h1{
+		font-size: 150px;
+		color: white;
+	}
+	h2{
+		font-size: 60px;
+		color: white;
+		margin-top: 50px;
+	}
+}
