@@ -18,6 +18,7 @@ main.bio{
 	margin-right: 50px;
 	img{
 		border-radius: 200px;
+		max-width: 100%;
 	}
 }
 
@@ -45,6 +46,30 @@ main.bio{
 		}
 	}
 }
+
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+	.bio-section{
+		flex-direction: column;
+		text-align: center;
+	}
+	.bio-section__img{
+		margin-top: 35px;
+		margin-right: 0;
+		order: 1;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.bio-section__img{
+		width: 300px;
+	}
+}
+
+
+
 
 
 
